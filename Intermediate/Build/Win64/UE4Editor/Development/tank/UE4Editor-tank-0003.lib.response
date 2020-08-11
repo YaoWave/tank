@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-tank-0003.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\project\tank\tank\Intermediate\Build\Win64\tankEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"E:\project\tank\tank\Intermediate\Build\Win64\UE4Editor\Development\tank\PawnBase.cpp.obj"
+"E:\project\tank\tank\Intermediate\Build\Win64\UE4Editor\Development\tank\tank.cpp.obj"
+"E:\project\tank\tank\Intermediate\Build\Win64\UE4Editor\Development\tank\PawnBase.gen.cpp.obj"
+"E:\project\tank\tank\Intermediate\Build\Win64\UE4Editor\Development\tank\tank.init.gen.cpp.obj"
+"E:\project\tank\tank\Intermediate\Build\Win64\UE4Editor\Development\tank\Default.rc2.res"
+/OUT:"E:\project\tank\tank\Intermediate\Build\Win64\UE4Editor\Development\tank\UE4Editor-tank-0003.lib"
+/INCLUDE:IMPLEMENT_MODULE_tank
