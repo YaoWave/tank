@@ -1,0 +1,2 @@
+E:\project\tank\tank\Intermediate\Build\Win64\UE4Editor\Development\tank\Definitions.tank.h
+E:\project\tank\tank\Source\tank\tank.h

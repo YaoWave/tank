@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\tank.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F3A1C609-4E7C-4A6A-90AE-6A65DDDD5058}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\tank.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\tankEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{97BB3E2B-6FD5-4371-B763-CEEE5FAF5107}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\tank">
+      <UniqueIdentifier>{0DB1286C-4EEA-41E1-90DF-72DBBCDB4D51}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\tank\tank.Build.cs">
+      <Filter>Source\tank</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\tank\tank.cpp">
+      <Filter>Source\tank</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\tank\tank.h">
+      <Filter>Source\tank</Filter>
+    </ClInclude>
+    <Filter Include="Source\tank\Pawns">
+      <UniqueIdentifier>{BFC0F489-D459-47E3-A690-7D5F8F17EDCC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\tank\Pawns\PawnBase.cpp">
+      <Filter>Source\tank\Pawns</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\tank\Pawns\PawnBase.h">
+      <Filter>Source\tank\Pawns</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
